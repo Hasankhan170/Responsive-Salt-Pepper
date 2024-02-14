@@ -174,17 +174,14 @@
     display: none;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     .welcome-img-area{
         margin-left: 160px;
-       
-        
     }
     .wel-img-1{
         display: flex;
         flex-wrap: wrap;
         width: 80%;
-
     }
     .wel-img-2{
         display: flex;
@@ -244,18 +241,15 @@
 }
 .rest-area h2{
     font-size: 60px;
-    
 }
 .rest-area p{
     font-size: 20px;
-    
 }
 
 .islamabad-main{
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
 }
 .islama-1 h4{
     color: red;
@@ -328,6 +322,10 @@
        text-align: center;
        gap: 50px;
     }
+    .isla-img-1{
+        width: 66%;
+    }
+    
 }
 
 @media screen and (max-width:1200px){
@@ -338,14 +336,212 @@
        margin-top: 10px;
     }
     .islama-2{
-        margin-left: 300px;
+        margin-left: 350px;
         width: 40%;
     }
     .islamabad-main-sec-2{
         margin-right: 130px;
-
+    }
+    .isla-img-2{
+        width:94%;
+        margin-right: 5px;
     }
 }
 
 /* Restaurant Franchises area ended */
+
+
+/* Salt'n Pepper Express Franchises area started  */
+
+
+.head-sec-2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.head-sec-02{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+.Express-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.e-img-1{
+    width: 100%;
+}
+.e-img-2{
+    width: 100%;
+}
+.e-img-3{
+    width: 100%;
+}
+.exp-img-1{
+    width: 25%;
+    height: auto;
+}
+.exp-img-2{
+    width: 25%;
+    height: auto;
+}
+.exp-img-3{
+    width: 25%;
+    height: auto;
+}
+.p-exp-1{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.h-exp-1{
+    text-align: center;
+    padding: 5px;
+}
+.ex-sp-1{
+    font-weight: lighter;
+}
+.para-exp-1{
+    text-align: center;
+    padding: 3px;
+}
+.location-ic-1{
+    text-transform: capitalize;
+}
+
+.g-d-01{
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-cen-box{
+    text-align: center;
+}
+
+.p-exp-2{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.h-exp-2{
+    text-align: center;
+    padding: 5px;
+}
+.ex-sp-2{
+    font-weight: lighter;
+}
+.para-exp-2{
+    text-align: center;
+    padding: 3px;
+}
+.location-ic-2{
+    text-transform: capitalize;
+}
+
+.g-d-02{
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p-exp-3{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.h-exp-3{
+    text-align: center;
+    padding: 5px;
+}
+.ex-sp-3{
+    font-weight: lighter;
+}
+.para-exp-3{
+    text-align: center;
+    padding: 3px;
+}
+.location-ic-3{
+    text-transform: capitalize;
+}
+
+.g-d-03{
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Express-main-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.Express-main-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .Express-main{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .Express-main-1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .Express-main-2{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .exp-img-1{
+        width: 80%;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    .e-img-1{
+        width: 80%;
+        margin-left: 80px;
+    }
+
+    .exp-img-2{
+        width: 80%;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    .e-img-2{
+        width: 80%;
+        margin-left: 80px;
+    }
+    .exp-img-3{
+        width: 80%;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    .e-img-3{
+        width: 80%;
+        margin-left: 80px;
+    }
+}
+
+
+/* Salt'n Pepper Express Franchises area ended  */
+
 
