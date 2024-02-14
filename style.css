@@ -99,33 +99,253 @@
 .img-1{
     width: 100%;
 }
-.img-2{
-    display: none;
-}
 
-@media screen and (max-width:1000px){
-    .img-2{
-        display:block;
-    }
-    .img-1{
-        display: none;
-        width: 60%;
-    }
 
-}
-
-@media screen and (max-width:1000px){
+ @media screen and (max-width:1000px){
     .main-cont{
         display: flex;
         justify-content: space-evenly;
-        width: 150%;
     }
-   
-}
-
+ }
+ 
 /* first image area ended*/
 
 /* welcome to salt and pepper area started */
 
+.main-welcome-area{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.welcome-area h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.welcome-area p{
+   font-weight: lighter;
+   font-size: 20px;
+   color: azure;
+}
+.welcome-area h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.wel-img-1{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.wel-img-2{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.wel-img-3{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.welcome-img-area{
+    padding: 20px;
+}
+.salt-large{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.butons-3{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.but-1{
+    padding: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+}
+.icon-none{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    .welcome-img-area{
+        margin-left: 160px;
+       
+        
+    }
+    .wel-img-1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+    .wel-img-2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .wel-img-3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .icon-none{
+        display: block;
+        margin-left: 200px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: transparent;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .butons-3{
+        display: none;
+    }
+    .welcome-area h1{
+        font-size: 20px;
+    }
+    .salt-large{
+        font-size: 25px;
+    }
+    .welcome-area h2{
+        font-size: 35px;
+    }
+    .welcome-area p{
+        font-size: 10px;
+    }
+   
+}
 
 /* welcome to salt and pepper area ended */
+
+/* Restaurant Franchises area started  */
+
+.gray-sec-1{
+    background-color: rgb(27, 27, 27);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.rest-area{
+    text-align: center;
+}
+.rest-area h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+.rest-area h2{
+    font-size: 60px;
+    
+}
+.rest-area p{
+    font-size: 20px;
+    
+}
+
+.islamabad-main{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+.islama-1 h4{
+    color: red;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.isla-1{
+   font-weight: lighter;
+}
+.islama-1 h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.islama-1 p{
+    padding-bottom: 5px;
+}
+.g-d-1{
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+.isla-img-1{
+    height: 90%;
+}
+
+/* 2nd sec  */
+
+.islamabad-main-sec-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.isla-img-2{
+    height: 90%;
+}
+
+.islama-2 h4{
+    color: red;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.isla-2{
+    font-weight: lighter;
+ }
+ .islama-2{
+    margin-right: 400px;
+    padding-left: 15px;
+ }
+ .sec-area-main-img-2{
+    margin-left: 150px;
+ }
+ .islama-2 h1{
+     font-size: 30px;
+     padding-bottom: 20px;
+ }
+ .islama-2 p{
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:1200px){
+    .islamabad-main{
+       flex-direction: column;
+       text-align: center;
+       gap: 50px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .islamabad-main-sec-2{
+       flex-direction: column-reverse;
+       text-align: center;
+       gap: 50px;
+       margin-top: 10px;
+    }
+    .islama-2{
+        margin-left: 300px;
+        width: 40%;
+    }
+    .islamabad-main-sec-2{
+        margin-right: 130px;
+
+    }
+}
+
+/* Restaurant Franchises area ended */
+
