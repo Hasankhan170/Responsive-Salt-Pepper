@@ -316,7 +316,7 @@
     padding-bottom: 5px;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
     .islamabad-main{
        flex-direction: column;
        text-align: center;
@@ -325,10 +325,30 @@
     .isla-img-1{
         width: 66%;
     }
+    .rest-area h1{
+        font-size: 40px;
+    }
+    .rest-area h2{
+        font-size: 40px;
+    }
+    .rest-area p{
+        font-size: 12px;
+    }
+   
+    .islama-2 h4{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 2px;
+    }
+    .islama-2 h1{
+        font-size: 28px;
+        text-align: center;
+    }
     
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
     .islamabad-main-sec-2{
        flex-direction: column-reverse;
        text-align: center;
@@ -336,7 +356,7 @@
        margin-top: 10px;
     }
     .islama-2{
-        margin-left: 350px;
+        margin-left: 37%;
         width: 40%;
     }
     .islamabad-main-sec-2{
@@ -345,6 +365,35 @@
     .isla-img-2{
         width:94%;
         margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-width:1250px){
+    .franc-para-area{
+        font-size: 2px;
+    }
+    .islama-1 h4{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 2px;
+    }
+    .islama-1 h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1430px){
+    .isla-img-2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1250px){
+    .isla-img-2{
+        width: 100%;
     }
 }
 
@@ -543,5 +592,247 @@
 
 
 /* Salt'n Pepper Express Franchises area ended  */
+
+
+/* Salt'n Pepper Village Franchise  started  */
+
+.gray-sec-2{
+    background-color: rgb(27, 27, 27);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.vill-head-1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+
+}
+.vill-head-2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.vill-main-cont{
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.vill-1{
+    color: red;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vill-sa-1{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.vill-ex-1{
+    font-weight: lighter;
+}
+.location-ic-4{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.vill-par-1{
+    padding-bottom: 5px;
+}
+.vill-head-5{
+    padding-bottom: 5px;
+}
+.phone-ic-4{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.button-vill-box{
+    padding-top: 25px;
+}
+
+.g-d-04{
+    background-color: green;
+    padding: 10px 23px 10px 23px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+#arrow-icon-1{
+   background-color: white;
+   color: green;
+   padding: 5px;
+   border-radius: 50px;
+   font-size: 18px;
+}
+
+@media screen and (max-width:1200px){
+    .vill-main-cont{
+        flex-direction: column;
+        text-align: center;
+}
+.vill-main-cont img{
+    max-width: 100%;
+}
+.vill-1{
+    font-size: 15px;
+}
+}
+
+/* Salt'n Pepper Village Franchise ended  */
+ 
+
+/* Salt'n Pepper Express Franchises (Opening Soon) started  */
+
+
+.fran-open{
+    margin-top: 30px;
+}
+.fran-open h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.fran-open h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.soon-span{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.main-box-loca{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.main-box-loca-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: none;
+}
+.boxmain-5{
+    display: none;
+}
+.boxmain-1{
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.boxmain-2{
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.boxmain-3{
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.box-para-1{
+    color: red;
+    font-weight: lighter;
+    font-size: 10px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+.box-head-4{
+    color: black;
+    font-size: 25px;
+    padding-top: 2px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.box-sp-1{
+    color: black;
+    margin-left: 4px;
+    font-size: 20px;
+}
+.box-para-2{
+    color: black;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.box-para-3{
+    color: black;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Social-Feed{
+    text-align: center;
+    margin-top: 60px;
+}
+.Social-Feed h1{
+    font-size: 40px;
+}
+.only-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.only-img-1-5{
+    width: 19%;
+}
+@media screen and (max-width:1200px){
+    .fran-open h1{
+        font-size: 25px;
+    }
+    .fran-open h2{
+        font-size: 25px;
+    }
+    .main-box-loca{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxmain-1{
+        width: 45%;
+        padding-bottom: 10px;
+    }
+    .boxmain-2{
+        width: 45%;
+        padding-bottom: 10px;
+    }
+    .boxmain-3{
+        display: none;
+    }
+    .main-box-loca-1{
+        display: block;
+        display: flex;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .only-images{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .only-img-1-5{
+        width: 40%;
+    }
+}
+
+/* Salt'n Pepper Express Franchises (Opening Soon) ended  */
 
 
