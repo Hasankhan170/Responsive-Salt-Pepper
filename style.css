@@ -5,7 +5,7 @@
     color: white;
 }
 
-/* navbar area started  */
+/* navbar area started hasan */
 .dark{
     background-color: black;
 }
@@ -90,9 +90,9 @@
     }
 }
 
-/* navbar area ended  */
+/* navbar area ended hasan  */
 
-/* first image area started */
+/* first image area started hasan */
 .first-img{
     margin-top: 10px;
 }
@@ -108,9 +108,9 @@
     }
  }
  
-/* first image area ended*/
+/* first image area ended hasan */
 
-/* welcome to salt and pepper area started */
+/* welcome to salt and pepper area started  hasan */
 
 .main-welcome-area{
     text-align: center;
@@ -223,9 +223,9 @@
    
 }
 
-/* welcome to salt and pepper area ended */
+/* welcome to salt and pepper area ended hasan */
 
-/* Restaurant Franchises area started  */
+/* Restaurant Franchises area started  hasan */
 
 .gray-sec-1{
     background-color: rgb(27, 27, 27);
@@ -285,10 +285,23 @@
 
 .islamabad-main-sec-2{
     display: flex;
+    justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sec-area-main-img-2{
+    text-align: start;
+    width: 30%;
+    margin-left: 50px;
 }
 .isla-img-2{
-    height: 90%;
+    width: 100%;
+}
+.islama-2{
+    text-align: left;
+    width: 30%;
+    margin-right:180px;
+
 }
 
 .islama-2 h4{
@@ -301,19 +314,16 @@
 .isla-2{
     font-weight: lighter;
  }
- .islama-2{
-    margin-right: 400px;
-    padding-left: 15px;
- }
- .sec-area-main-img-2{
-    margin-left: 150px;
- }
+
  .islama-2 h1{
      font-size: 30px;
      padding-bottom: 20px;
  }
  .islama-2 p{
     padding-bottom: 5px;
+} 
+.islamabad-main-1{
+    display: none;
 }
 
 @media screen and (max-width:1250px){
@@ -334,39 +344,23 @@
     .rest-area p{
         font-size: 12px;
     }
-   
-    .islama-2 h4{
-        font-size: 20px;
-        text-align: center;
-        margin-top: 20px;
-        padding-bottom: 2px;
+    .islamabad-main-sec-2{
+      display: none;
+        
     }
-    .islama-2 h1{
-        font-size: 28px;
+    .islamabad-main-1{
+        display: block;
+        flex-direction: column-reverse;
         text-align: center;
+        gap: 50px;
     }
+ .islama-1{
+    padding-bottom: 20px;
+ }
     
 }
 
-@media screen and (max-width:1250px){
-    .islamabad-main-sec-2{
-       flex-direction: column-reverse;
-       text-align: center;
-       gap: 50px;
-       margin-top: 10px;
-    }
-    .islama-2{
-        margin-left: 37%;
-        width: 40%;
-    }
-    .islamabad-main-sec-2{
-        margin-right: 130px;
-    }
-    .isla-img-2{
-        width:94%;
-        margin-right: 5px;
-    }
-}
+
 
 
 @media screen and (max-width:1250px){
@@ -374,33 +368,24 @@
         font-size: 2px;
     }
     .islama-1 h4{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         margin-top: 20px;
         padding-bottom: 2px;
     }
     .islama-1 h1{
-        font-size: 28px;
+        font-size: 20px;
         text-align: center;
     }
 
 }
 
-@media screen and (max-width:1430px){
-    .isla-img-2{
-        width: 100%;
-    }
-}
-@media screen and (max-width:1250px){
-    .isla-img-2{
-        width: 100%;
-    }
-}
-
-/* Restaurant Franchises area ended */
 
 
-/* Salt'n Pepper Express Franchises area started  */
+/* Restaurant Franchises area ended hasan */
+
+
+/* Salt'n Pepper Express Franchises area started hasan */
 
 
 .head-sec-2{
@@ -591,10 +576,10 @@
 }
 
 
-/* Salt'n Pepper Express Franchises area ended  */
+/* Salt'n Pepper Express Franchises area ended hasan  */
 
 
-/* Salt'n Pepper Village Franchise  started  */
+/* Salt'n Pepper Village Franchise  started hasan  */
 
 .gray-sec-2{
     background-color: rgb(27, 27, 27);
@@ -678,12 +663,26 @@
 .vill-1{
     font-size: 15px;
 }
+.vill-1{
+    font-size: 10px;
+}
+.vill-sa-1{
+    font-size: 20px;
+}
+.vill-par-1{
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.vill-head-5{
+    font-size: 10px;
+    text-transform: capitalize;
+}
 }
 
-/* Salt'n Pepper Village Franchise ended  */
+/* Salt'n Pepper Village Franchise ended  hasan */
  
 
-/* Salt'n Pepper Express Franchises (Opening Soon) started  */
+/* Salt'n Pepper Express Franchises (Opening Soon) started hasan  */
 
 
 .fran-open{
@@ -833,6 +832,62 @@
     }
 }
 
-/* Salt'n Pepper Express Franchises (Opening Soon) ended  */
+/* Salt'n Pepper Express Franchises (Opening Soon) ended hasan  */
+
+
+/* footer area started hasan  */
+
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+.footer-tage{
+    background-color: rgb(17, 17, 17);
+}
+.footer-1{
+    margin-top: 40px;
+}
+.footer-1 p{
+    padding: 2px;
+}
+.footer-2{
+    margin-top: 40px;
+}
+.footer-2 p{
+    padding: 10px 0px 10px 0px;
+}
+.footer-3{
+    margin-top: 40px;
+}
+.footer-3 p{
+    padding: 8px 0px 8px 0px;
+}
+.footer-4{
+    margin-top: 40px;
+    line-height: 60px;
+}
+#foot-2{
+    font-size: 20px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+}
+.last-area{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+
+}
+@media screen and (max-width:1200px){
+    .footer-main{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* footer area ended hasan  */
+
 
 
